@@ -5,7 +5,7 @@ The user needs to have python3 installed with the modules in the scripts.
 Run the scripts according to the numbers:- 1-downloads the data from the CHIRPS domain;
 										  2-extracts the rasters from the zipped chirps files;
 										  3-creates rainfall txt files per pixel for the selected area.
-The user needs should download the whole folder and add the shapefile of the area of interest then
+The user needs should download the whole folder and add the shapefile (.shp') and a dem ('.tif') of the area of interest (in 'EPSG:4326')then
 run the scripts in order. 
 
 The rainfall txt files are prepared ready for use in a SWAT or SWAT+ model.
